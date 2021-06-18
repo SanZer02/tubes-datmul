@@ -32,7 +32,8 @@ $this->params['breadcrumbs'][] = $this->title;
             'Tanggal_Pembuatan',
             'Tanggal_Edit',
             'filename:ntext',
-            'filepath:ntext',
+            // 'filepath:image',
+            
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

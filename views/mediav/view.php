@@ -34,8 +34,9 @@ $this->params['breadcrumbs'][] = $this->title;
             'Deskripsi:ntext',
             'Tanggal_Pembuatan',
             'Tanggal_Edit',
-            'filename',
+            'filename:ntext',
             'filepath:ntext',
+            
         ],
     ]) ?>
 

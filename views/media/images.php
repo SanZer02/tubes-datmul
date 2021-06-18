@@ -4,11 +4,12 @@
 
 use yii\helpers\Html;
 
-$this->title = 'Gallery';
+$this->title = 'Galeri Image';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-about">
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h1><strong><?= Html::encode($this->title) ?></strong></h1>
+    <br>
 
     <div class="row">
     <?php
@@ -20,11 +21,13 @@ $this->params['breadcrumbs'][] = $this->title;
                 <div class="card-body">
                     <h4 class="card-title" style="word-wrap:break-word"><strong><?php echo $media->Judul; ?></strong></h4>
                 </div>
+                <br>
             </div>
         </div>
     <?php
     }
     ?>
+    
     </div>
     
 
