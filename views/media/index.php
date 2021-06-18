@@ -7,15 +7,15 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\MediaSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Media';
+$this->title = 'Database Gambar';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="media-index">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h1><strong><?= Html::encode($this->title) ?></strong></h1>
 
     <p>
-        <?= Html::a('Create Media', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Tambah Gambar', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
