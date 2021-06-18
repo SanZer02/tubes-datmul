@@ -40,13 +40,13 @@ AppAsset::register($this);
         'items' => [
             ['label' => 'Home', 'url' => ['/site/index']],
             ['label' => 'Images', 'url' => ['/media/images']],
-            ['label' => 'Video', 'url' => ['']],
+            ['label' => 'Video', 'url' => ['/mediav/videos']],
             ['label' => 'Music', 'url' => ['']],
             [
                 'label' => 'CRUD',
                 'items' => [
-                    ['label' => 'Image Database', 'url' => ['/media/index']]
-
+                    ['label' => 'Image Database', 'url' => ['/media/index']],
+                    ['label' => 'Video Database', 'url' => ['/mediav/index']]
                 ] 
                 // 'url' => ['/media/index']
             ],
