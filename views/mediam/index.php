@@ -7,15 +7,15 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\MediamSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Mediams';
+$this->title = 'Database Audio';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="mediam-index">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h1><strong><?= Html::encode($this->title) ?></strong></h1>
 
     <p>
-        <?= Html::a('Create Mediam', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Tambah Audio', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
@@ -31,7 +31,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'Deskripsi:ntext',
             'Tanggal_Pembuatan',
             'Tanggal_Edit',
-            //'filename',
+            'filename:ntext',
             //'filepath:ntext',
 
             ['class' => 'yii\grid\ActionColumn'],

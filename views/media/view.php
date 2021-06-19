@@ -7,7 +7,7 @@ use yii\widgets\DetailView;
 /* @var $model app\models\Media */
 
 $this->title = $model->Judul;
-$this->params['breadcrumbs'][] = ['label' => 'Media', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Database Gambar', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 \yii\web\YiiAsset::register($this);
 ?>

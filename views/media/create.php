@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var $model app\models\Media */
 
 $this->title = 'Tambah Gambar';
-$this->params['breadcrumbs'][] = ['label' => 'Media', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Database Gambar', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="media-create">

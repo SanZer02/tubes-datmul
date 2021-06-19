@@ -7,15 +7,15 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\MediavSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Mediavs';
+$this->title = 'Database Video';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="mediav-index">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h1><strong><?= Html::encode($this->title) ?></strong></h1>
 
     <p>
-        <?= Html::a('Create Mediav', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Tambah Video', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>

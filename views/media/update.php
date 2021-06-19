@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var $model app\models\Media */
 
 $this->title = 'Update : ' . $model->Judul;
-$this->params['breadcrumbs'][] = ['label' => 'Media', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Database Gambar', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->Judul, 'url' => ['view', 'id' => $model->ID]];
 $this->params['breadcrumbs'][] = 'Update';
 ?>
