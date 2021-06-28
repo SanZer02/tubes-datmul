@@ -27,22 +27,22 @@ AppAsset::register($this);
         }
 
         .gambarcover{
-             text-align: center;
-             color: #f8f8f8;
-             content:url(http://cdn.onlinewebfonts.com/svg/img_67804.png) 
+            text-align: center;
+            color: #f8f8f8;
+            content:url(http://cdn.onlinewebfonts.com/svg/img_67804.png) 
         }
     
             
     
         .gambarvidio{
-             text-align: center;
-             color: #f8f8f8;
-             content:url(http://icons.iconarchive.com/icons/designbolts/free-multimedia/1024/Video-Camera-icon.png) 
+            text-align: center;
+            color: #f8f8f8;
+            content:url(http://icons.iconarchive.com/icons/designbolts/free-multimedia/1024/Video-Camera-icon.png) 
         }
         .gambaraudio{
-             text-align: center;
-             color: #f8f8f8;
-             content:url(https://static.vecteezy.com/system/resources/previews/000/654/477/original/speaker-icon-image-vector.jpg) 
+            text-align: center;
+            color: #f8f8f8;
+            content:url(https://static.vecteezy.com/system/resources/previews/000/654/477/original/speaker-icon-image-vector.jpg) 
         }
     </style>
     <?php $this->registerCsrfMetaTags() ?>
