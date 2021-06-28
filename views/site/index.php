@@ -7,22 +7,22 @@ $this->title = 'My Yii Application';
 <div class="site-index">
  <!-- Header -->
 
-    <div class="intro-header">
+    <div class="header">
         <div class="container">
 
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <h1><strong>Selamat Datang</strong></h1>
-                        <h3> -DATMUL GALLERY- </h3>
+                        <h1><strong>Selamat Datang di Datmul Gallery</strong></h1>
+                        <h3>Tugas Besar Database Multimedia 2021</h3>
                     </div>
                 </div>
             </div>
 
         </div>
-        <!-- /.container -->
+        
 
-    </div>
+    </div> -->
     <!-- /.intro-header -->
 
     <!-- Page Content -->
@@ -72,7 +72,7 @@ $this->title = 'My Yii Application';
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading"><strong>Audio</strong></h2>
+                    <h2 class="section-heading"><strong>AUDIO</strong></h2>
                     <p class="lead">Pada halaman ini berisi kumpulan Audio yang dapat di nikmati <a target="_blank" href="index.php?r=site%2Fabout"></a></p>
                     <p class="lead"><a target="_blank" href=""></a></p>
                 </div>

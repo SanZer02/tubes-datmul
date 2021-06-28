@@ -29,7 +29,8 @@ AppAsset::register($this);
         .gambarcover{
             text-align: center;
             color: #f8f8f8;
-            content:url(http://cdn.onlinewebfonts.com/svg/img_67804.png) 
+            content:url(http://cdn.onlinewebfonts.com/svg/img_67804.png);
+            width: 500px; 
         }
     
             
@@ -37,12 +38,14 @@ AppAsset::register($this);
         .gambarvidio{
             text-align: center;
             color: #f8f8f8;
-            content:url(http://icons.iconarchive.com/icons/designbolts/free-multimedia/1024/Video-Camera-icon.png) 
+            content:url(http://icons.iconarchive.com/icons/designbolts/free-multimedia/1024/Video-Camera-icon.png);
+            width: 500px;
         }
         .gambaraudio{
             text-align: center;
             color: #f8f8f8;
-            content:url(https://static.vecteezy.com/system/resources/previews/000/654/477/original/speaker-icon-image-vector.jpg) 
+            content:url(https://static.vecteezy.com/system/resources/previews/000/654/477/original/speaker-icon-image-vector.jpg);
+            width: 500px;
         }
     </style>
     <?php $this->registerCsrfMetaTags() ?>
